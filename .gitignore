@@ -1,0 +1,83 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------------
+# Virtual Environments
+# -----------------------
+venv/
+ENV/
+env/
+.venv/
+
+# -----------------------
+# Jupyter Notebook
+# -----------------------
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# -----------------------
+# IDEs and Editors
+# -----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# -----------------------
+# Data files (ignore large files)
+# -----------------------
+src/data_extraction/data/raw/*.csv
+src/data_transformation/data/processed/*.csv
+notebooks/*.csv
+data/raw/time_series_covid19_recovered_global.csv
+*.parquet
+*.h5
+*.hdf5
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+logs/
+
+# -----------------------
+# Operating System
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Testing
+# -----------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# -----------------------
+# Environment variables
+# -----------------------
+.env
+.env.local
