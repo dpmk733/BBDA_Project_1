@@ -28,6 +28,6 @@ BBDA_Project_1/
 ├── 📓 BBDA_Project_1 - Data Extraction Branch.ipynb # Step 1: Ingestion Logic
 ├── 📓 bigbluedataset.ipynb                          # Step 2: Transformation & Cleaning
 ├── 📓 Exploration.ipynb                             # Step 3: Visualization & EDA
-├── 📓 main_run.ipynb                                # 🟢 ENTRY POINT: Pipeline Orchestrator
+├── 📓 main_run.ipynb                                # run the final result
 │
 └── 📝 README.md                                     # Project Documentation
